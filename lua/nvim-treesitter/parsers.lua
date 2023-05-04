@@ -1218,6 +1218,16 @@ list.rego = {
   maintainers = { "@FallenAngel97" },
 }
 
+list.rescript = {
+  install_info = {
+    url = "https://github.com/nkrkv/nvim-treesitter-rescript",
+    files = { "src/parser.c", "src/scanner.c" },
+    location = "tree-sitter-rescript",
+  },
+  filetype = "rescript",
+  maintainers = { "@r17x" }
+}
+
 list.rnoweb = {
   install_info = {
     url = "https://github.com/bamonroe/tree-sitter-rnoweb",
